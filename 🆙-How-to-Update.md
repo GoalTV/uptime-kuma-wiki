@@ -4,6 +4,8 @@ Re-pull the latest docker image and create another container with the same volum
 
 For someone who used my "How-to-use" commands to install Uptime Kuma, you can update by this:
 
+Please ensure that you have exported a backup as all data will be erased.
+
 ```bash
 docker pull louislam/uptime-kuma:1
 docker stop uptime-kuma
